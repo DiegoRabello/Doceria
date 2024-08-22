@@ -1,0 +1,314 @@
+.navbar {
+  background-color: #006599;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 60px;
+}
+.content {
+  position: absolute;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+.navbar img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.navbar li {
+  padding: 30px;
+  list-style: none;
+}
+.navbar a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar a:hover {
+    color: #000000;
+}
+.banner {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 70px;
+  background-image: url(../img/banner2.jpg);
+}
+.description {
+  margin-top: -400px;
+  margin-left: 350px;
+  font-size: 16px;
+  color: #000000;
+
+  padding-right: 20px;
+}
+.description p {
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.bemvindo-message h1 {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: #006599;
+}
+.minibannerfini {
+  margin-left: 50px;
+  background-image: url(../img/banner3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 20%;
+}
+.btn-lermais {
+  
+  color: #006599;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border: 1px solid #006599;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-lermais a:hover {
+  background-color: #ffffff;
+  color: #006599;
+}
+.sobre h1 {
+  margin-top: 10%;
+  margin-left: 50px;
+  font-size: 48px;
+  color: #006599;
+  font-weight: bold;
+}
+.sobre-description p {
+  margin-left: 50px;
+  margin-top: -220px;
+  font-size: 16px;
+  color: #000000;
+  width: 70%;
+  padding-right: 100px;
+  text-align: justify;
+}
+.sobre-img {
+  margin-left: 70%;
+  margin-top: 75px;
+  background-image: url(../img/banner4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 20%;
+}
+.produtos {
+  margin-top: 20%;
+  margin-left: 50px;
+}
+.produtos h1 {
+  font-size: 48px;
+  color: #006599;
+}
+.produtos h2 {
+  font-size: 24px;
+  color: #006599;
+}
+.doce1 {
+  margin-top: 50px;
+  width: 20%;
+  float: left;
+  background-image: url(../img/galeria1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce2 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce3 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce4 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce5 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce6 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria6.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce7 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce8 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria8.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce9 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria9.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.doce10 {
+  margin-top: 50px;
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  background-image: url(../img/galeria10.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 200px;
+}
+.contato-form {
+  margin-top: 20%;
+  margin-left: 50px;
+}
+.doces2 {
+  margin-top: 35%;
+  margin-left: 50px;
+}
+.doces2 h2 {
+  font-size: 24px;
+  color: #006599;
+}
+.contato {
+  background-color: bisque;
+  margin-top: 35%;
+  color: #000000;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.contato h2 {
+  font-size: 32px;
+  color: #006599;
+  margin-bottom: 20px;
+}
+
+.nome {
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #006599;
+}
+.email {
+  margin-bottom: 20px;
+  width: 49%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #006599;
+}
+.contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #006599;
+}
+.contato button {
+  background-color: #ffffff;
+  color: #006599;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 42%;
+  border: 1px solid #006599;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  
+}
+.contato button:hover {
+    background-color: #006599;
+    color: #ffffff;
+}
+.contato input {
+    flex :1;
+}
+.fa-instagram {
+    color: #E4405F;
+    margin-left: 10px;
+    font-size: 30px;
+}
